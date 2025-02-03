@@ -33,6 +33,8 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      'react/react-in-jsx-scope': 'off',  // React 18'de JSX için import gerekli değil
+      'react/prop-types': 'off',  // Prop-types kullanmıyorsanız bunu kapatabilirsiniz
     },
   },
 ]
